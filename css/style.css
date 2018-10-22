@@ -36,6 +36,12 @@ h1{
   font-weight: 500px;
 }
 
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 @media screen and (min-width: 600px) {
   body {
     background-color: #333;
@@ -48,9 +54,17 @@ h1{
 }
 
 /* Two column design*/
-@@media screen and (min-width: 600px) {
+@media screen and (min-width: 991px) {
   div{
     margin: 1%;
     width: 48%;
+  }
+}
+
+/*Four column design*/
+@media screen and (min-width: 1199px) {
+  div{
+    margin: 1%;
+    width: 12%;
   }
 }
