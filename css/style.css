@@ -27,7 +27,7 @@ nav {
   margin: 0 auto;
   padding: 10px 0px 15px 15px;
   width: 420px;
-  background-color: black;
+  background-color: #f9f7f7;
   position: fixed;
 }
 
@@ -36,11 +36,10 @@ h1{
   font-weight: 500px;
 }
 
-img {
-  display: block;
-  width: 100%;
-  height: auto;
+.preview.baku {
+  background-image: url("/css-exercise-four/images/baku.jpg");
 }
+
 
 @media screen and (min-width: 600px) {
   body {
@@ -50,6 +49,7 @@ img {
 
   h1 {
     font-size: 50px;
+
   }
 }
 
